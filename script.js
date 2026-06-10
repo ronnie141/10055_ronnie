@@ -1,0 +1,20 @@
+let fName = "ronnie"
+let lName = "mutembei"
+console.log(fName + " " + lName)
+let marks = 400
+let fTermFees = 20000
+let sTermFees = 30000
+let gpa = 7.5
+let pass = true
+let n1 = document.getElementById("firstName")
+n1.innerHTML = fName
+let n2 = document.getElementById("lastName")
+n2.innerHTML = lName
+let mainMarks = document.getElementById("marks")
+mainMarks.innerHTML = marks
+let maingpa = document.getElementById("GPA")
+maingpa.innerHTML = gpa
+let mainfTermFees = document.getElementById("fTermFees")
+mainfTermFees.innerHTML = fTermFees
+let mainsTermFees = document.getElementById("sTermFees")
+mainsTermFees.innerHTML = sTermFees
